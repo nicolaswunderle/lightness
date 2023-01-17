@@ -1,0 +1,23 @@
+{
+  "name": "17_lightness",
+  "version": "1.0.0",
+  "description": "Exercice du cours ProgWeb",
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaswunderle/lightness.git"
+  },
+  "author": "Nicolas Wunderle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaswunderle/lightness/issues"
+  },
+  "homepage": "https://github.com/nicolaswunderle/lightness#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
