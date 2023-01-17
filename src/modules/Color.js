@@ -20,14 +20,14 @@ class Color{
 
         const interior = document.createElement("p");
         interior.style.color = this.#hsl[2] < 60 ? "#fff" : "#000";
-        interior.innerHTML = this.#hex;
+        interior.textContent = this.#hex;
         element.appendChild(interior);
 
         return element;
     }
     
-    display () {
-        document.querySelector("main").appendChild(this.#element);
+    display (parentElement) {
+        parentElement.appendChild(this.#element);
     }
 }
 

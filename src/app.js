@@ -8,9 +8,7 @@ const displayColors = (palette, input) => {
     // reset
     document.querySelector("main").innerHTML = "";
     // Generate color
-    palette.forEach(color => {
-        new Color(color).display();
-    });
+    palette.forEach( color => new Color(color).display(document.querySelector("main")) );
     // header
     document.querySelector("header").classList.add("minimized");
     // Background
